@@ -32,7 +32,7 @@
     }
 
     setInterval(function(){
-        if (elementInViewport(document.getElementsByClassName('fb-comment-title fb-comment-title-show')[0])) {
+        if (elementInViewport(document.getElementsByClassName('fb-comment-title')[0])) {
             document.getElementsByClassName("navi-change-chapter-btn-next a-h")[0].click()
         }
     }, 500);
